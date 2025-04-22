@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing Code Examples</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Image Processing Code Examples</h1>
+        <p>Select a question to view and copy the Python code</p>
+    </header>
+
+    <main>
+        <div class="question-list">
+            <button class="question-btn active" onclick="showQuestion(0)">Question 1: Basic Digital Image Operations</button>
+            <button class="question-btn" onclick="showQuestion(1)">Question 2: Image Transformations</button>
+            <button class="question-btn" onclick="showQuestion(2)">Question 3: Histogram Equalization</button>
+            <button class="question-btn" onclick="showQuestion(3)">Question 4: Spatial Domain Filtering</button>
+            <button class="question-btn" onclick="showQuestion(4)">Question 5: Frequency Domain Filtering</button>
+            <button class="question-btn" onclick="showQuestion(5)">Question 6: Morphological Operations</button>
+            <button class="question-btn" onclick="showQuestion(6)">Question 7: Edge Detection</button>
+            <button class="question-btn" onclick="showQuestion(7)">Question 8: Global Thresholding</button>
+            <button class="question-btn" onclick="showQuestion(8)">Question 9: Perceptron Implementation</button>
+        </div>
+
+        <div class="code-container">
+            <div class="code-header">
+                <h2 id="question-title">Question 1: Basic Digital Image Operations</h2>
+                <button id="copy-btn" onclick="copyCode()">
+                    <i class="fas fa-copy"></i> Copy Code
+                </button>
+            </div>
+            <pre><code id="code-display">Loading code...</code></pre>
+        </div>
+    </main>
+
+    <footer>
+        <p>Image Processing Tutorial - Digital Image Processing</p>
+    </footer>
+
+    <div id="toast">Code copied to clipboard!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
